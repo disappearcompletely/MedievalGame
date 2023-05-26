@@ -33,7 +33,7 @@ public class PickUpWeapon : MonoBehaviour
                 currentWeapon.transform.parent = transform;
                 currentWeapon.transform.localPosition = Vector3.zero;
                 currentWeapon.transform.localPosition = new Vector3(0f, weaponLiftHeight, 0f);
-                currentWeapon.transform.localEulerAngles = new Vector3(0f, -65f, -25f);
+                currentWeapon.transform.localEulerAngles = new Vector3(0.635f, -89f, 1.405f);
                 canPickUp = true;
             }
         }
