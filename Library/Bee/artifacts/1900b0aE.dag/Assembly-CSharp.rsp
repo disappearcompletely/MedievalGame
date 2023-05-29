@@ -379,6 +379,7 @@
 "Assets/PatrolBehaviour.cs"
 "Assets/PickUpWeapon.cs"
 "Assets/PlayerManager.cs"
+"Assets/Polytope Studio/Lowpoly_Characters/Sources/Scripts/PT_Create_Prefab.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark01_UGUI.cs"
 "Assets/TextMesh Pro/Examples & Extras/Scripts/Benchmark02.cs"
