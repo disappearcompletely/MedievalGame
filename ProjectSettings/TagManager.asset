@@ -7,6 +7,24 @@ TagManager:
   - Weapon
   - Points
   - Enemy
+  - Points_1
+  - Points_2
+  - Points_3
+  - Points_4
+  - Points_5
+  - Points_6
+  - Points_7
+  - Points_8
+  - Points_9
+  - Points_10
+  - Points_11
+  - Points_12
+  - Points_13
+  - Points_14
+  - Points_15
+  - Boss
+  - Points_16
+  - Points_17
   layers:
   - Default
   - TransparentFX

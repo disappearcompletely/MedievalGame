@@ -1,12 +1,11 @@
 using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
 using TMPro;
 using UnityEngine.SceneManagement;
 
 public class PlayerManager : MonoBehaviour
 {
-    public static int playerHealth;
+    public int playerHealth;  // убрано static
     public static bool gameOver;
     public TextMeshProUGUI playerHealthText;
     public GameObject redOverlay;
@@ -24,10 +23,9 @@ public class PlayerManager : MonoBehaviour
         
         if (gameOver)
         {
-            SceneManager.LoadScene("EnemyAI");
+            SceneManager.LoadScene("MedievalVillage");
         }
     }
-            
 
     public IEnumerator Damage (int damageCount)
     {
@@ -39,5 +37,11 @@ public class PlayerManager : MonoBehaviour
 
         yield return new WaitForSeconds(.5f);
         redOverlay.SetActive(false);
+    }
+
+    // новый метод для лечения игрока
+    public void Heal()
+    {
+        playerHealth = 100;
     }
 }

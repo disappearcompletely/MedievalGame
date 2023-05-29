@@ -16,5 +16,11 @@ public class EnemyDamageScript : MonoBehaviour
             other.GetComponent<EnemyScript>().TakeDamage(damageAmount);
             
         }
+
+        if (other.tag == "Boss")
+        {
+            other.GetComponent<BossScript>().TakeDamage(damageAmount);
+            
+        }
     }
 }

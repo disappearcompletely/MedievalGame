@@ -385,6 +385,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 0787983958b142b4fa465587d8317c24, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  publicString: Points
 --- !u!1101 &3406426861703844556
 AnimatorStateTransition:
   m_ObjectHideFlags: 1
