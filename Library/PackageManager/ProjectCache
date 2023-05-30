@@ -1,33 +1,33 @@
 m_ProjectFiles:
   m_ManifestFileStatus:
-    m_FilePath: H:/GitHub/MedievalGame/Packages/manifest.json
+    m_FilePath: C:/Users/Ermak/Desktop/Ucheba/6sem/Unity/MedievalGame/Packages/manifest.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197734118667423
-    m_Hash: 2765329926
+      ticks: 638209908585974435
+    m_Hash: 3576924917
   m_LockFileStatus:
-    m_FilePath: H:/GitHub/MedievalGame/Packages/packages-lock.json
+    m_FilePath: C:/Users/Ermak/Desktop/Ucheba/6sem/Unity/MedievalGame/Packages/packages-lock.json
     m_PathExists: 1
     m_ContentTrackingEnabled: 1
     m_ModificationDate:
       serializedVersion: 2
-      ticks: 638197734118977426
-    m_Hash: 2631189688
+      ticks: 638210390174207794
+    m_Hash: 3950093940
 m_EmbeddedPackageManifests:
   m_ManifestsStatus: {}
 m_LocalPackages:
   m_LocalFileStatus: []
-m_ProjectPath: H:/GitHub/MedievalGame/Packages
-m_EditorVersion: 2022.2.19f1 (765657fe9343)
+m_ProjectPath: C:/Users/Ermak/Desktop/Ucheba/6sem/Unity/MedievalGame/Packages
+m_EditorVersion: 2021.3.22f1 (b6c551784ba3)
 m_ResolvedPackages:
 - packageId: com.unity.ai.navigation@1.1.3
   testable: 0
   isDirectDependency: 1
   version: 1.1.3
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ai.navigation@1.1.3
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ai.navigation@1.1.3
   assetPath: Packages/com.unity.ai.navigation
   name: com.unity.ai.navigation
   displayName: AI Navigation
@@ -52,9 +52,11 @@ m_ResolvedPackages:
     - 1.1.1
     - 1.1.3
     compatible:
-    - 1.1.3
-    recommended: 1.1.3
-    deprecated: []
+    - 1.0.0-exp.1
+    - 1.0.0-exp.2
+    - 1.0.0-exp.3
+    - 1.0.0-exp.4
+    verified: 
   dependencies:
   - name: com.unity.modules.ai
     version: 1.0.0
@@ -81,19 +83,14 @@ m_ResolvedPackages:
     revision: 21cc07be635247d730f8d1ef7c1987e222159a45
     path: 
   unityLifecycle:
-    version: 1.1.3
+    version: 
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.collab-proxy@2.0.4
   testable: 0
   isDirectDependency: 1
   version: 2.0.4
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.collab-proxy@2.0.4
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.collab-proxy@2.0.4
   assetPath: Packages/com.unity.collab-proxy
   name: com.unity.collab-proxy
   displayName: Version Control
@@ -177,12 +174,13 @@ m_ResolvedPackages:
     - 2.1.0-preview.5
     - 2.1.0-preview.6
     compatible:
+    - 2.0.1
+    - 2.0.3
     - 2.0.4
     - 2.1.0-preview.3
     - 2.1.0-preview.5
     - 2.1.0-preview.6
-    recommended: 2.0.4
-    deprecated: []
+    verified: 2.0.4
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -219,19 +217,14 @@ m_ResolvedPackages:
     revision: dc15ef2ed609e8c19d0525a46c5bf7dd78df8432
     path: 
   unityLifecycle:
-    version: 2.0.4
+    version: 2.0.1
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.feature.development@1.0.1
   testable: 0
   isDirectDependency: 1
   version: 1.0.1
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.feature.development@1.0.1
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.feature.development@1.0.1
   assetPath: Packages/com.unity.feature.development
   name: com.unity.feature.development
   displayName: Engineering
@@ -252,8 +245,7 @@ m_ResolvedPackages:
     - 1.0.1
     compatible:
     - 1.0.1
-    recommended: 1.0.1
-    deprecated: []
+    verified: 1.0.1
   dependencies:
   - name: com.unity.ide.visualstudio
     version: default
@@ -271,9 +263,9 @@ m_ResolvedPackages:
     version: default
   resolvedDependencies:
   - name: com.unity.ide.visualstudio
-    version: 2.0.18
+    version: 2.0.17
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -281,7 +273,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.ide.rider
-    version: 3.0.21
+    version: 3.0.18
   - name: com.unity.ide.vscode
     version: 1.2.5
   - name: com.unity.editorcoroutines
@@ -289,9 +281,9 @@ m_ResolvedPackages:
   - name: com.unity.performance.profile-analyzer
     version: 1.2.2
   - name: com.unity.testtools.codecoverage
-    version: 1.2.3
+    version: 1.2.2
   - name: com.unity.settings-manager
-    version: 2.0.1
+    version: 1.0.3
   keywords: []
   registry:
     id: main
@@ -314,17 +306,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.1
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.textmeshpro@3.0.6
   testable: 0
   isDirectDependency: 1
   version: 3.0.6
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.textmeshpro@3.0.6
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.textmeshpro@3.0.6
   assetPath: Packages/com.unity.textmeshpro
   name: com.unity.textmeshpro
   displayName: TextMeshPro
@@ -450,10 +437,7 @@ m_ResolvedPackages:
     - 3.2.0-pre.2
     - 3.2.0-pre.3
     - 3.2.0-pre.4
-    - 4.0.0-pre.1
-    - 4.0.0-pre.2
-    recommended: 3.0.6
-    deprecated: []
+    verified: 3.0.6
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -491,17 +475,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 3.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.timeline@1.7.4
   testable: 0
   isDirectDependency: 1
   version: 1.7.4
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.timeline@1.7.4
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.timeline@1.7.4
   assetPath: Packages/com.unity.timeline
   name: com.unity.timeline
   displayName: Timeline
@@ -597,12 +576,19 @@ m_ResolvedPackages:
     - 1.8.1
     - 1.8.2
     compatible:
+    - 1.6.4
+    - 1.6.5
+    - 1.7.0-pre.1
+    - 1.7.0-pre.2
+    - 1.7.0
+    - 1.7.1
+    - 1.7.2
+    - 1.7.3
     - 1.7.4
     - 1.8.0
     - 1.8.1
     - 1.8.2
-    recommended: 1.7.4
-    deprecated: []
+    verified: 1.6.5
   dependencies:
   - name: com.unity.modules.director
     version: 1.0.0
@@ -646,19 +632,14 @@ m_ResolvedPackages:
     revision: 1f458a5d3f2bc66f0c1182feeaa9fcea4e8b1496
     path: 
   unityLifecycle:
-    version: 1.7.4
+    version: 1.6.4
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.ugui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ugui@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ugui@1.0.0
   assetPath: Packages/com.unity.ugui
   name: com.unity.ugui
   displayName: Unity UI
@@ -680,8 +661,7 @@ m_ResolvedPackages:
     - 3.0.0-exp.1
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -718,17 +698,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.visualscripting@1.8.0
   testable: 0
   isDirectDependency: 1
   version: 1.8.0
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.visualscripting@1.8.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.visualscripting@1.8.0
   assetPath: Packages/com.unity.visualscripting
   name: com.unity.visualscripting
   displayName: Visual Scripting
@@ -773,9 +748,7 @@ m_ResolvedPackages:
     - 1.8.0
     compatible:
     - 1.8.0
-    recommended: 1.8.0
-    deprecated:
-    - 1.8.0-pre.1
+    verified: 1.8.0
   dependencies:
   - name: com.unity.ugui
     version: 1.0.0
@@ -812,17 +785,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.8.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.ai@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.ai@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.ai@1.0.0
   assetPath: Packages/com.unity.modules.ai
   name: com.unity.modules.ai
   displayName: AI
@@ -841,8 +809,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -867,17 +834,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.androidjni@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.androidjni@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.androidjni@1.0.0
   assetPath: Packages/com.unity.modules.androidjni
   name: com.unity.modules.androidjni
   displayName: Android JNI
@@ -895,8 +857,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -921,17 +882,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.animation@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.animation@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.animation@1.0.0
   assetPath: Packages/com.unity.modules.animation
   name: com.unity.modules.animation
   displayName: Animation
@@ -950,8 +906,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -976,17 +931,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.assetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.assetbundle@1.0.0
   assetPath: Packages/com.unity.modules.assetbundle
   name: com.unity.modules.assetbundle
   displayName: Asset Bundle
@@ -1005,8 +955,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1031,17 +980,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.audio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.audio@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.audio@1.0.0
   assetPath: Packages/com.unity.modules.audio
   name: com.unity.modules.audio
   displayName: Audio
@@ -1060,8 +1004,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1086,17 +1029,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.cloth@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.cloth@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.cloth@1.0.0
   assetPath: Packages/com.unity.modules.cloth
   name: com.unity.modules.cloth
   displayName: Cloth
@@ -1115,8 +1053,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1145,17 +1082,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.director@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.director@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.director@1.0.0
   assetPath: Packages/com.unity.modules.director
   name: com.unity.modules.director
   displayName: Director
@@ -1174,8 +1106,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -1208,17 +1139,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imageconversion@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.imageconversion@1.0.0
   assetPath: Packages/com.unity.modules.imageconversion
   name: com.unity.modules.imageconversion
   displayName: Image Conversion
@@ -1238,8 +1164,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1264,17 +1189,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.imgui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.imgui@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.imgui@1.0.0
   assetPath: Packages/com.unity.modules.imgui
   name: com.unity.modules.imgui
   displayName: IMGUI
@@ -1293,8 +1213,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1319,17 +1238,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.jsonserialize@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.jsonserialize@1.0.0
   assetPath: Packages/com.unity.modules.jsonserialize
   name: com.unity.modules.jsonserialize
   displayName: JSONSerialize
@@ -1348,8 +1262,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1374,17 +1287,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.particlesystem@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.particlesystem@1.0.0
   assetPath: Packages/com.unity.modules.particlesystem
   name: com.unity.modules.particlesystem
   displayName: Particle System
@@ -1403,8 +1311,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1429,17 +1336,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.physics@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.physics@1.0.0
   assetPath: Packages/com.unity.modules.physics
   name: com.unity.modules.physics
   displayName: Physics
@@ -1458,8 +1360,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1484,17 +1385,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.physics2d@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.physics2d@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.physics2d@1.0.0
   assetPath: Packages/com.unity.modules.physics2d
   name: com.unity.modules.physics2d
   displayName: Physics 2D
@@ -1513,8 +1409,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1539,17 +1434,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.screencapture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.screencapture@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.screencapture@1.0.0
   assetPath: Packages/com.unity.modules.screencapture
   name: com.unity.modules.screencapture
   displayName: Screen Capture
@@ -1568,8 +1458,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.imageconversion
     version: 1.0.0
@@ -1598,17 +1487,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrain@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.terrain@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.terrain@1.0.0
   assetPath: Packages/com.unity.modules.terrain
   name: com.unity.modules.terrain
   displayName: Terrain
@@ -1627,8 +1511,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1653,17 +1536,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.terrainphysics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.terrainphysics@1.0.0
   assetPath: Packages/com.unity.modules.terrainphysics
   name: com.unity.modules.terrainphysics
   displayName: Terrain Physics
@@ -1682,8 +1560,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -1716,17 +1593,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.tilemap@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.tilemap@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.tilemap@1.0.0
   assetPath: Packages/com.unity.modules.tilemap
   name: com.unity.modules.tilemap
   displayName: Tilemap
@@ -1744,8 +1616,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics2d
     version: 1.0.0
@@ -1774,17 +1645,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.ui@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.ui@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.ui@1.0.0
   assetPath: Packages/com.unity.modules.ui
   name: com.unity.modules.ui
   displayName: UI
@@ -1803,8 +1669,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1829,17 +1694,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.uielements@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.uielements@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.uielements@1.0.0
   assetPath: Packages/com.unity.modules.uielements
   name: com.unity.modules.uielements
   displayName: UIElements
@@ -1858,8 +1718,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
@@ -1867,12 +1726,16 @@ m_ResolvedPackages:
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
+  - name: com.unity.modules.uielementsnative
+    version: 1.0.0
   resolvedDependencies:
   - name: com.unity.modules.ui
     version: 1.0.0
   - name: com.unity.modules.imgui
     version: 1.0.0
   - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  - name: com.unity.modules.uielementsnative
     version: 1.0.0
   keywords: []
   registry:
@@ -1896,17 +1759,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.umbra@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.umbra@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.umbra@1.0.0
   assetPath: Packages/com.unity.modules.umbra
   name: com.unity.modules.umbra
   displayName: Umbra
@@ -1925,8 +1783,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -1951,17 +1808,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unityanalytics@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unityanalytics@1.0.0
   assetPath: Packages/com.unity.modules.unityanalytics
   name: com.unity.modules.unityanalytics
   displayName: Unity Analytics
@@ -1980,8 +1832,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2014,17 +1865,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequest@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequest@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequest
   name: com.unity.modules.unitywebrequest
   displayName: Unity Web Request
@@ -2043,8 +1889,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2069,17 +1914,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestassetbundle@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestassetbundle@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestassetbundle
   name: com.unity.modules.unitywebrequestassetbundle
   displayName: Unity Web Request Asset Bundle
@@ -2098,8 +1938,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.assetbundle
     version: 1.0.0
@@ -2132,17 +1971,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestaudio@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestaudio@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestaudio
   name: com.unity.modules.unitywebrequestaudio
   displayName: Unity Web Request Audio
@@ -2161,8 +1995,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2195,17 +2028,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequesttexture@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequesttexture@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequesttexture
   name: com.unity.modules.unitywebrequesttexture
   displayName: Unity Web Request Texture
@@ -2224,8 +2052,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2258,17 +2085,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.unitywebrequestwww@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.unitywebrequestwww@1.0.0
   assetPath: Packages/com.unity.modules.unitywebrequestwww
   name: com.unity.modules.unitywebrequestwww
   displayName: Unity Web Request WWW
@@ -2287,8 +2109,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.unitywebrequest
     version: 1.0.0
@@ -2337,17 +2158,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vehicles@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.vehicles@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.vehicles@1.0.0
   assetPath: Packages/com.unity.modules.vehicles
   name: com.unity.modules.vehicles
   displayName: Vehicles
@@ -2366,8 +2182,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2396,17 +2211,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.video@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.video@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.video@1.0.0
   assetPath: Packages/com.unity.modules.video
   name: com.unity.modules.video
   displayName: Video
@@ -2425,8 +2235,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.audio
     version: 1.0.0
@@ -2463,17 +2272,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.vr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.vr@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.vr@1.0.0
   assetPath: Packages/com.unity.modules.vr
   name: com.unity.modules.vr
   displayName: VR
@@ -2492,8 +2296,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2532,17 +2335,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.wind@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.wind@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.wind@1.0.0
   assetPath: Packages/com.unity.modules.wind
   name: com.unity.modules.wind
   displayName: Wind
@@ -2561,8 +2359,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2587,17 +2384,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.xr@1.0.0
   testable: 0
   isDirectDependency: 1
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.xr@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.xr@1.0.0
   assetPath: Packages/com.unity.modules.xr
   name: com.unity.modules.xr
   displayName: XR
@@ -2616,8 +2408,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.physics
     version: 1.0.0
@@ -2654,17 +2445,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.modules.subsystems@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 2
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.modules.subsystems@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.subsystems@1.0.0
   assetPath: Packages/com.unity.modules.subsystems
   name: com.unity.modules.subsystems
   displayName: Subsystems
@@ -2683,8 +2469,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
@@ -2713,17 +2498,72 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.ide.visualstudio@2.0.18
+- packageId: com.unity.modules.uielementsnative@1.0.0
   testable: 0
   isDirectDependency: 0
-  version: 2.0.18
+  version: 1.0.0
+  source: 2
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.modules.uielementsnative@1.0.0
+  assetPath: Packages/com.unity.modules.uielementsnative
+  name: com.unity.modules.uielementsnative
+  displayName: UIElements Native
+  author:
+    name: 
+    email: 
+    url: 
+  category: 
+  type: module
+  description: 
+  status: 0
+  errors: []
+  versions:
+    all:
+    - 1.0.0
+    compatible:
+    - 1.0.0
+    verified: 1.0.0
+  dependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  resolvedDependencies:
+  - name: com.unity.modules.ui
+    version: 1.0.0
+  - name: com.unity.modules.imgui
+    version: 1.0.0
+  - name: com.unity.modules.jsonserialize
+    version: 1.0.0
+  keywords: []
+  registry:
+    id: main
+    name: 
+    url: https://packages.unity.com
+    scopes: []
+    isDefault: 1
+    capabilities: 7
+    configSource: 0
+  hideInEditor: 1
+  isAssetStorePackage: 0
+  datePublishedTicks: 0
+  documentationUrl: 
+  hasRepository: 0
+  repository:
+    type: 
+    url: 
+    revision: 
+    path: 
+  unityLifecycle:
+    version: 
+    nextVersion: 
+- packageId: com.unity.ide.visualstudio@2.0.17
+  testable: 0
+  isDirectDependency: 0
+  version: 2.0.17
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ide.visualstudio@2.0.18
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ide.visualstudio@2.0.17
   assetPath: Packages/com.unity.ide.visualstudio
   name: com.unity.ide.visualstudio
   displayName: Visual Studio Editor
@@ -2762,15 +2602,15 @@ m_ResolvedPackages:
     - 2.0.17
     - 2.0.18
     compatible:
+    - 2.0.17
     - 2.0.18
-    recommended: 2.0.18
-    deprecated: []
+    verified: 2.0.18
   dependencies:
   - name: com.unity.test-framework
     version: 1.1.9
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -2788,28 +2628,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638173205920000000
+  datePublishedTicks: 638059987360000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.visualstudio@2.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.visualstudio.git
-    revision: 9d3c07127cbe1916b8abbfd18f71fb8d9df8008c
+    revision: 1f126893bfb18ea9661fb15771613e841467073c
     path: 
   unityLifecycle:
-    version: 2.0.18
+    version: 2.0.17
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.ide.rider@3.0.21
+- packageId: com.unity.ide.rider@3.0.18
   testable: 0
   isDirectDependency: 0
-  version: 3.0.21
+  version: 3.0.18
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ide.rider@3.0.21
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ide.rider@3.0.18
   assetPath: Packages/com.unity.ide.rider
   name: com.unity.ide.rider
   displayName: JetBrains Rider Editor
@@ -2863,9 +2698,10 @@ m_ResolvedPackages:
     - 3.0.20
     - 3.0.21
     compatible:
+    - 3.0.18
+    - 3.0.20
     - 3.0.21
-    recommended: 3.0.21
-    deprecated: []
+    verified: 3.0.21
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -2883,28 +2719,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638175749180000000
+  datePublishedTicks: 638088746970000000
   documentationUrl: https://docs.unity3d.com/Packages/com.unity.ide.rider@3.0/manual/index.html
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.ide.rider.git
-    revision: bb7732dcafe867368246b7661dda05368b74dd8e
+    revision: b40b39e6834c2915637f431d002d1f3dd8ec9ce5
     path: 
   unityLifecycle:
-    version: 3.0.21
+    version: 3.0.18
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.ide.vscode@1.2.5
   testable: 0
   isDirectDependency: 0
   version: 1.2.5
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ide.vscode@1.2.5
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ide.vscode@1.2.5
   assetPath: Packages/com.unity.ide.vscode
   name: com.unity.ide.vscode
   displayName: Visual Studio Code Editor
@@ -2936,8 +2767,7 @@ m_ResolvedPackages:
     - 1.2.5
     compatible:
     - 1.2.5
-    recommended: 1.2.5
-    deprecated: []
+    verified: 1.2.5
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -2962,17 +2792,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.5
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.editorcoroutines@1.0.0
   testable: 0
   isDirectDependency: 0
   version: 1.0.0
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.editorcoroutines@1.0.0
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.editorcoroutines@1.0.0
   assetPath: Packages/com.unity.editorcoroutines
   name: com.unity.editorcoroutines
   displayName: Editor Coroutines
@@ -2998,8 +2823,7 @@ m_ResolvedPackages:
     - 1.0.0
     compatible:
     - 1.0.0
-    recommended: 1.0.0
-    deprecated: []
+    verified: 1.0.0
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3027,17 +2851,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.0
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.performance.profile-analyzer@1.2.2
   testable: 0
   isDirectDependency: 0
   version: 1.2.2
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.performance.profile-analyzer@1.2.2
   assetPath: Packages/com.unity.performance.profile-analyzer
   name: com.unity.performance.profile-analyzer
   displayName: Profile Analyzer
@@ -3072,8 +2891,7 @@ m_ResolvedPackages:
     - 1.2.2
     compatible:
     - 1.2.2
-    recommended: 1.2.2
-    deprecated: []
+    verified: 1.2.2
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3098,17 +2916,12 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.2.2
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.test-framework@1.1.33
+- packageId: com.unity.test-framework@1.1.31
   testable: 0
   isDirectDependency: 0
-  version: 1.1.33
+  version: 1.1.31
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.test-framework@1.1.33
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.test-framework@1.1.31
   assetPath: Packages/com.unity.test-framework
   name: com.unity.test-framework
   displayName: Test Framework
@@ -3168,6 +2981,7 @@ m_ResolvedPackages:
     - 2.0.1-pre.12
     - 2.0.1-pre.18
     compatible:
+    - 1.1.31
     - 1.1.33
     - 1.3.0
     - 1.3.1
@@ -3179,8 +2993,7 @@ m_ResolvedPackages:
     - 2.0.1-exp.2
     - 2.0.1-pre.12
     - 2.0.1-pre.18
-    recommended: 1.1.33
-    deprecated: []
+    verified: 1.1.33
   dependencies:
   - name: com.unity.ext.nunit
     version: 1.0.6
@@ -3208,28 +3021,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 637938212700000000
+  datePublishedTicks: 637804266210000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.com/Unity-Technologies/com.unity.test-framework.git
-    revision: 34a4d423d64926635eb36d3bb86276179cc186e1
+    revision: 438b0defc147c9be5c969ca79ff03a722b4590ed
     path: 
   unityLifecycle:
-    version: 1.1.33
+    version: 1.1.31
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.testtools.codecoverage@1.2.3
+- packageId: com.unity.testtools.codecoverage@1.2.2
   testable: 0
   isDirectDependency: 0
-  version: 1.2.3
+  version: 1.2.2
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.testtools.codecoverage@1.2.3
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.testtools.codecoverage@1.2.2
   assetPath: Packages/com.unity.testtools.codecoverage
   name: com.unity.testtools.codecoverage
   displayName: Code Coverage
@@ -3277,9 +3085,9 @@ m_ResolvedPackages:
     - 1.2.2
     - 1.2.3
     compatible:
+    - 1.2.2
     - 1.2.3
-    recommended: 1.2.3
-    deprecated: []
+    verified: 1.2.3
   dependencies:
   - name: com.unity.test-framework
     version: 1.0.16
@@ -3287,7 +3095,7 @@ m_ResolvedPackages:
     version: 1.0.1
   resolvedDependencies:
   - name: com.unity.test-framework
-    version: 1.1.33
+    version: 1.1.31
   - name: com.unity.ext.nunit
     version: 1.0.6
   - name: com.unity.modules.imgui
@@ -3295,7 +3103,7 @@ m_ResolvedPackages:
   - name: com.unity.modules.jsonserialize
     version: 1.0.0
   - name: com.unity.settings-manager
-    version: 2.0.1
+    version: 1.0.3
   keywords:
   - test
   - coverage
@@ -3311,28 +3119,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 0
   isAssetStorePackage: 0
-  datePublishedTicks: 638169790470000000
-  documentationUrl: https://docs.unity3d.com/Packages/com.unity.testtools.codecoverage@1.2/manual/index.html
+  datePublishedTicks: 638047147810000000
+  documentationUrl: 
   hasRepository: 1
   repository:
     type: git
     url: https://github.cds.internal.unity3d.com/unity/com.unity.testtools.codecoverage.git
-    revision: d4b7ffdbe5fd9b2506f04f112caa0ed3f898c59b
+    revision: 4178e047a15e206f715d23af69b02acd367bb000
     path: 
   unityLifecycle:
-    version: 1.2.3
+    version: 1.2.2
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
-- packageId: com.unity.settings-manager@2.0.1
+- packageId: com.unity.settings-manager@1.0.3
   testable: 0
   isDirectDependency: 0
-  version: 2.0.1
+  version: 1.0.3
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.settings-manager@2.0.1
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.settings-manager@1.0.3
   assetPath: Packages/com.unity.settings-manager
   name: com.unity.settings-manager
   displayName: Settings Manager
@@ -3357,9 +3160,10 @@ m_ResolvedPackages:
     - 2.0.0
     - 2.0.1
     compatible:
+    - 1.0.3
+    - 2.0.0
     - 2.0.1
-    recommended: 2.0.1
-    deprecated: []
+    verified: 1.0.3
   dependencies: []
   resolvedDependencies: []
   keywords: []
@@ -3373,28 +3177,23 @@ m_ResolvedPackages:
     configSource: 0
   hideInEditor: 1
   isAssetStorePackage: 0
-  datePublishedTicks: 637744099390000000
+  datePublishedTicks: 637300096300000000
   documentationUrl: 
   hasRepository: 1
   repository:
     type: git
-    url: https://github.com/Unity-Technologies/com.unity.settings-manager.git
-    revision: 9b7c12d04ef880168151c127fd6b37b5931197dc
+    url: git+https://github.com/Unity-Technologies/com.unity.settings-manager.git
+    revision: 473664ccba1496294b741cf169740a5d54b3d0b6
     path: 
   unityLifecycle:
-    version: 2.0.1
+    version: 1.0.3
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
 - packageId: com.unity.ext.nunit@1.0.6
   testable: 0
   isDirectDependency: 0
   version: 1.0.6
   source: 1
-  resolvedPath: H:\GitHub\MedievalGame\Library\PackageCache\com.unity.ext.nunit@1.0.6
+  resolvedPath: C:\Users\Ermak\Desktop\Ucheba\6sem\Unity\MedievalGame\Library\PackageCache\com.unity.ext.nunit@1.0.6
   assetPath: Packages/com.unity.ext.nunit
   name: com.unity.ext.nunit
   displayName: Custom NUnit
@@ -3422,8 +3221,7 @@ m_ResolvedPackages:
     - 1.0.6
     - 2.0.2
     - 2.0.3
-    recommended: 1.0.6
-    deprecated: []
+    verified: 1.0.6
   dependencies: []
   resolvedDependencies: []
   keywords:
@@ -3451,8 +3249,3 @@ m_ResolvedPackages:
   unityLifecycle:
     version: 1.0.6
     nextVersion: 
-    recommendedVersion: 
-    isDeprecated: 0
-    deprecationMessage: 
-  isDeprecated: 0
-  deprecationMessage: 
